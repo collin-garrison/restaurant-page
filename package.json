@@ -17,7 +17,7 @@
     "url": "https://github.com/CollinDG/restaurant-page/issues"
   },
   "homepage": "https://github.com/CollinDG/restaurant-page#readme",
-  "dependencies": {
+  "devDependencies": {
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1"
   }

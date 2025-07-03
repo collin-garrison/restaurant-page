@@ -1,4 +1,3 @@
-import { loadPage } from "./load-page.js";
+import { loadHomePage } from "./load-home-page.js";
 
-loadPage();
-console.log("test")
+loadHomePage();

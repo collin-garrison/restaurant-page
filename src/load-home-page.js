@@ -1,4 +1,4 @@
-export function loadPage() {
+export function loadHomePage() {
     const container = document.getElementById("content");
     
     const h1 = document.createElement("h1");

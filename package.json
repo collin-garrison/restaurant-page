@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/CollinDG/restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
     "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1"
   }

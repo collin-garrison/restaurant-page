@@ -10,7 +10,7 @@ export function loadHomePage() {
     const img = createElement("img", container);
     img.src = "../images/restaurant-image.jpg";
     img.alt = "Image of restaurant interior";
-    container.appendChild(img);
+    img.id = "home-img"
 
     const p = createElement("p", container, 
         "A cozy restaurant to have a delicious meal with friends and family, or to simply relax.");

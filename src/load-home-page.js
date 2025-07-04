@@ -3,6 +3,7 @@ import { createElement } from "./create-element";
 export function loadHomePage() {
     const container = document.getElementById("content");
     container.textContent = "";
+    container.classList.remove("food-container");
     
     const h1 = createElement("h1", container, "Collin's Diner");
     const h3 = createElement("h3", container, "123 Maple Ave, Los Angeles, CA 86543");

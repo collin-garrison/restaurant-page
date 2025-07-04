@@ -1,5 +1,5 @@
 import { createElement } from "./create-element";
-import { restaurantImage } from "../images/restaurant-image.jpg";
+import restaurantImage from "../images/restaurant-image.jpg";
 
 export function loadHomePage() {
     const container = document.getElementById("content");

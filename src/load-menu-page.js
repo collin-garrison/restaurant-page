@@ -1,8 +1,8 @@
 import { createElement } from "./create-element";
-import { pancakesImage } from "../images/pancakes.jpeg";
-import { sandwichImage } from "../images/sandwich.jpg";
-import { pastaImage } from "../images/pasta.jpg";
-import { cakeImage } from "../images/cake.jpg";
+import pancakesImage from "../images/pancakes.jpeg";
+import sandwichImage from "../images/sandwich.jpg";
+import pastaImage from "../images/pasta.jpg";
+import cakeImage from "../images/cake.jpg";
 
 
 export function loadMenuPage() {

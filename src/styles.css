@@ -24,7 +24,7 @@ button {
     height: 80%;
     background: #C47F28;
     border: none;
-    border-radius: 8px 8px 0 0;
+    border-radius: 12px 8px 0 0;
     font-size: 1.25rem;
 }
 
@@ -36,16 +36,17 @@ button {
 
 h1 {
     font-size: 3rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0;
 }
 
 h3 {
     font-size: 1.5rem;
-    margin-top: 1rem;
-}
-
-img {
-    margin-top: 1.5rem;
+    margin: 1.5rem 0;
 }
 
 p {

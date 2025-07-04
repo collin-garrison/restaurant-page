@@ -1,15 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Roboto", serif;
+    background: #fcf0d5;
+    color: #2E2E2E;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    align-items: flex-end;
+    height: 64px;
+    gap: 80px;
+    background: #7A8450;
+}
+
+button {
+    width: 100px;
+    height: 80%;
+    background: #C47F28;
+    border: none;
+    border-radius: 8px 8px 0 0;
+    font-size: 1.25rem;
 }
 
 #content {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+img {
+    margin-top: 1.5rem;
+}
+
+p {
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
 }

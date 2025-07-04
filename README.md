@@ -1,15 +1,19 @@
 # Restaurant Page
 
-A simple restaurant page built with Webpack to learn JavaScript module bundling.
+A simple restaurant page built with **Webpack** to learn JavaScript module bundling.
 
 [View Here](https://collindg.github.io/restaurant-page/)
 
 ## Features
 
 - Tabbed navigation between Home, Menu, and About sections
-- Modular code structure using ES modules
-- Styled with CSS and image assets handled via Webpack
-- Generated and controlled via JavaScript (no hardcoded HTML content)
+- Generated and controlled via JavaScript (minimal static HTML content)
+- Modular code structure using ES modules bundled wtih Webpack
+- Webpack handles:
+  - Module bundling and dependency management
+  - CSS loading and injection
+  - Asset loading (images)
+  - Cache-busting with content hashing
 
 ## Built With
 

@@ -1,4 +1,9 @@
 import { createElement } from "./create-element";
+import { pancakesImage } from "../images/pancakes.jpeg";
+import { sandwichImage } from "../images/sandwich.jpg";
+import { pastaImage } from "../images/pasta.jpg";
+import { cakeImage } from "../images/cake.jpg";
+
 
 export function loadMenuPage() {
     const container = document.getElementById("content");
@@ -13,7 +18,7 @@ export function loadMenuPage() {
     const breakfast = createElement("h3", pancakes, "Breakfast");
     pancakes.classList.add("food")
     const pancakesImg = createElement("img", pancakes);
-    pancakesImg.src = "../images/pancakes.jpeg";
+    pancakesImg.src = pancakesImage;
     pancakesImg.alt = "Photo of pancakes";
     pancakesImg.classList.add("food-img");
     const pancakesDesc = createElement("p", pancakes, "Delicious pancakes to start your morning off right.");
@@ -22,7 +27,7 @@ export function loadMenuPage() {
     const lunch = createElement("h3", sandwich, "Lunch");
     sandwich.classList.add("food")
     const sandwichImg = createElement("img", sandwich);
-    sandwichImg.src = "../images/sandwich.jpg";
+    sandwichImg.src = sandwichImage;
     sandwichImg.alt = "Photo of sandwich";
     sandwichImg.classList.add("food-img");
     const sandwichDesc = createElement("p", sandwich, "A savory sandwich to enjoy the middle of your day.");
@@ -31,7 +36,7 @@ export function loadMenuPage() {
     const dinner = createElement("h3", pasta, "Dinner");
     pasta.classList.add("food")
     const pastaImg = createElement("img", pasta);
-    pastaImg.src = "../images/pasta.jpg";
+    pastaImg.src = pastaImage;
     pastaImg.alt = "Photo of pasta";
     pastaImg.classList.add("food-img");
     const pastaDesc = createElement("p", pasta, "Italian pasta for an incredible dinnertime meal.");
@@ -40,7 +45,7 @@ export function loadMenuPage() {
     const dessert = createElement("h3", cake, "Dessert");
     cake.classList.add("food")
     const cakeImg = createElement("img", cake);
-    cakeImg.src = "../images/cake.jpg";
+    cakeImg.src = cakeImage;
     cakeImg.alt = "Photo of cake";
     cakeImg.classList.add("food-img");
     const cakeDesc = createElement("p", cake, "A luxurious cake for a special customer like you.");

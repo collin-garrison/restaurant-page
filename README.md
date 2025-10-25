@@ -2,7 +2,7 @@
 
 A simple restaurant page built with **Webpack** to learn JavaScript module bundling.
 
-[View Here](https://collindg.github.io/restaurant-page/)
+[View Here](https://collin-garrison.github.io/restaurant-page/)
 
 ## Features
 
